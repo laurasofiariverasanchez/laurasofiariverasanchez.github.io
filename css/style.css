@@ -1,0 +1,15 @@
+body{
+    background-color:#a52a2a;
+}
+h1{
+    font-family: "Castoro Titling", serif;
+    font-size: 35px;
+    text-align: center;
+}
+footer{
+    background-color: #f5f5dc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
