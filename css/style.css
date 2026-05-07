@@ -33,6 +33,11 @@ h2{
     margin-inline: auto;
  }
 
+ .two-cols{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
 .silly-text {
     color: rgb(249, 0, 150);
     font-family: cursive;
