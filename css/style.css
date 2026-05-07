@@ -57,6 +57,9 @@ a:active{
     color: rgb(120, 126, 116);
 }
 
+img{
+    max-inline-size: 100%;
+}
 strong{
     background-color: aquamarine;
 }
