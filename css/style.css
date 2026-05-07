@@ -24,6 +24,10 @@ h2{
  .teal-text {
     color: teal;
  }
+ .emphasis {
+    font-family: cursive;
+    text-decoration: wavy;
+ }
 
 .silly-text {
     color: rgb(249, 0, 150);
