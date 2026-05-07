@@ -25,7 +25,7 @@ h2{
     color: teal;
  }
 
-  .silly-text {
+.silly-text {
     color: rgb(249, 0, 150);
     font-family: cursive;
  }
@@ -34,13 +34,20 @@ h2{
 a {
     color: #097379;
     }
+
 a:visited{
     color: rgb(226, 149, 226);
 }
 
 a:hover {
-
+    color: rgb(249, 0, 150);
+    font-family: cursive;
 }
+
+a:active{
+    color: rgb(120, 126, 116);
+}
+
 strong{
     background-color: aquamarine;
 }
