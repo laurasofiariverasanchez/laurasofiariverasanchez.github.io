@@ -29,6 +29,9 @@ a {
     font-family: cursive;
     color: #097379;
     }
+a:visited{
+    color: rgb(226, 149, 226);
+}
 
 strong{
     background-color: aquamarine;
