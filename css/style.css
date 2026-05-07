@@ -10,13 +10,31 @@ h1{
     text-align: center;
     line-height: 1.25;
 }
-p{
-    background-color: beige;
+h2{
+    font-family: "Castoro Titling", serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.25;
 }
+.accent {
+    background-color: beige;
+    text-align: center;
+ }
+
+ .teal-text {
+    color: teal;
+ }
+
+a {
+    font-family: cursive;
+    color: #097379;
+    }
+
 strong{
     background-color: aquamarine;
 }
 footer{
+    padding: 2px;
     background-color: #f5f5dc;
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
