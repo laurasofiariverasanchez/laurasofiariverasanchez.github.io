@@ -58,6 +58,7 @@ a:active{
 }
 
 img{
+    diplay: block;
     max-inline-size: 100%;
 }
 strong{
