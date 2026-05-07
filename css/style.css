@@ -28,6 +28,9 @@ h2{
     font-family: cursive;
     text-decoration: wavy;
  }
+ .wrapper{
+    inline-size: 500px;
+ }
 
 .silly-text {
     color: rgb(249, 0, 150);
