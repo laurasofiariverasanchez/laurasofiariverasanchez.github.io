@@ -1,10 +1,20 @@
 body{
     background-color:#eeeabe;
 }
+header{
+  text-align: center;
+}
 h1{
     font-family: "Castoro Titling", serif;
     font-size: 30px;
     text-align: center;
+    line-height: 1.25;
+}
+p{
+    background-color: beige;
+}
+strong{
+    background-color: aquamarine;
 }
 footer{
     background-color: #f5f5dc;
