@@ -1,8 +1,10 @@
 body{
     background-color:#eeeabe;
+    text-align: center;
 }
 header{
-  text-align: right;
+    font-size: 10px;
+    text-align: right;
 }
 h1{
     font-family: "Castoro Titling", serif;
@@ -16,7 +18,14 @@ h2{
     text-align: center;
     line-height: 1.25;
 }
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+
+}
 .accent {
+    color: hwb(0 18% 82%);
+    margin: auto; 
     background-color: beige;
     text-align: center;
  }
@@ -45,10 +54,18 @@ h2{
     grid-template-columns: 1fr 1fr;
  }
 
+  .three-cols{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+
+
 .silly-text {
     color: rgb(249, 0, 150);
     font-family: cursive;
  }
+
 
 
 a {
@@ -56,13 +73,12 @@ a {
     }
 
 a:visited{
-    color: rgb(226, 149, 226);
+    color: #533746;
 }
 
 a:hover {
-    color: rgb(249, 0, 150);
+    color: #9b67d2;
     text-decoration:underline !important;
-    font-family: cursive;
 }
 
 a:active{
@@ -70,14 +86,13 @@ a:active{
 }
 
 img{
-    diplay: block;
+    display: block;
     max-inline-size: 100%;
 }
 strong{
     background-color: aquamarine;
 }
 footer{
-    padding: 2px;
     background-color: #f5f5dc;
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
