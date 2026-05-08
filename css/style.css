@@ -40,7 +40,7 @@ p{
   background-repeat: no-repeat;
   aspect-ratio: 4 / 5;
   width: 100%;
-  max-width: 500px;
+  max-width: 200px;
   margin: 2rem auto;
   padding: 1rem;
   color: white;
@@ -61,7 +61,6 @@ p{
 
  }
  .wrapper{
-    max-inline-size: 2000px;
     margin-inline: auto;
  }
 
