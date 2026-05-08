@@ -33,17 +33,21 @@ p{
  .teal-text {
     color: teal;
  }
+ 
 .image-bg {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   aspect-ratio: 4 / 5;
   width: 100%;
+  max-width: 500px;
+  margin: 1rem auto;
   padding: 2rem;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
  .emphasis {
