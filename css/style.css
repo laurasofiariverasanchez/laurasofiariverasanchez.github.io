@@ -28,6 +28,10 @@ h2{
     font-family: cursive;
     text-decoration: wavy;
  }
+ .primary-navigation ul{
+    list-style: none;
+
+ }
  .wrapper{
     max-inline-size: 2000px;
     margin-inline: auto;
