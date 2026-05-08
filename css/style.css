@@ -37,9 +37,13 @@ p{
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  aspect-ratio: 4 / 5;
+  width: 100%;
   padding: 2rem;
   color: white;
-  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
  .emphasis {
