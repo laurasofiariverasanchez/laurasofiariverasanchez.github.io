@@ -107,7 +107,7 @@ align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   /*min-height: 60vh;          /* at least 60% of the viewport height */
-  padding: 3rem 1.5rem;
+  /*padding: 3rem 1.5rem;*/
   display: flex;
   flex-direction: column;
   align-items: center;
