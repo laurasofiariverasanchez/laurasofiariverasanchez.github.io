@@ -17,13 +17,13 @@ h1{
 }
 h2{
     font-family: "Castoro Titling", serif;
-    font-size: 1.7rem;
+    font-size: 1.75rem;
     text-align: center;
     line-height: 1.25;
 }
 h3{
     font-family: "Castoro Titling", serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align: center;
     line-height: 1.25;
 }
@@ -142,10 +142,11 @@ strong{
 summary {
     list-style: none; 
     font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
     /* background-color: rgba(0, 0, 0, 0.6); */
     padding: 0.75rem 1rem;
     border-radius: 6px;
-    cursor: pointer;
+    cursor:e-resize;
 }
 footer{
     background-color: #f5f5dc;
