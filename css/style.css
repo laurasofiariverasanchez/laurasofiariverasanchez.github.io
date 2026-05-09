@@ -2,7 +2,7 @@ html {
   font-size: 112.5%;  /* 112.5% of the browser default (usually 16px) = 18px */
 }
 body{
-    /*background-color: #eeeabe;/*#eeeabe;*/
+    background-color: #f0eedc;/*#eeeabe;*/
     text-align: center;
 }
 header{
@@ -10,10 +10,12 @@ header{
     text-align: right;
 }
 h1{
-    font-family: "Castoro Titling", serif;
-    font-size: 2rem;
+    font-family: "Cinzel Decorative", serif; /*"Castoro Titling", serif;*/
+    font-size: 3rem;
     text-align: center;
     line-height: 1.25;
+     font-weight: 400;
+  font-style: normal;
 }
 h2{
     font-family: "Castoro Titling", serif;
@@ -37,7 +39,7 @@ p{
 .accent {
     color: hwb(0 18% 82%);
     margin: auto; 
-    background-color: #7e8c82; /*beige;*/
+    background-color: #b2b39c; /*beige;*/
     text-align: center;
     background-size:cover;
     
@@ -46,7 +48,7 @@ p{
     color: hwb(0 18% 82%);
     width: fit-content;
     margin: auto; 
-    background-color:  #7e8c82;/*beige;*/
+    background-color:  #bdbf8d;/*beige;*/
     text-align: center;
     background-size:cover
  }
@@ -55,7 +57,7 @@ p{
     color: hwb(0 18% 82%);
   display: inline;
   padding: 0.25em 0.5em;
-  background-color: beige;
+  background-color: #bdbf8d;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   border-radius: 0.5em
