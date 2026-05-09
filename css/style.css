@@ -18,6 +18,13 @@ h2{
     text-align: center;
     line-height: 1.25;
 }
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.25;
+}
+
 
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -28,10 +35,30 @@ p{
     margin: auto; 
     background-color: beige;
     text-align: center;
+    background-size:cover;
+    
+ }
+ .narrow-accent {
+    color: hwb(0 18% 82%);
+    width: fit-content;
+    margin: auto; 
+    background-color: beige;
+    text-align: center;
+    background-size:cover
  }
 
- .teal-text {
-    color: teal;
+ .highlighter{
+  display: inline;
+  padding: 0.25em 0.5em;
+  background-color: beige;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  border-radius: 0.5em
+}
+
+
+ .beige-text {
+    color: beige;
  }
 
 .image-bg {
