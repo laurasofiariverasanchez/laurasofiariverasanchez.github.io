@@ -66,7 +66,7 @@ p{
     color: beige;
  }
 
-.image-bg {
+/*.image-bg {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,6 +79,14 @@ p{
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+  */
+
+.image-bg {
+  background-size: cover;
+  background-position: center;  /* keeps the most important part visible when cropping */
+  background-repeat: no-repeat;
+  aspect-ratio: 4 / 5;
 }
 
  .emphasis {
