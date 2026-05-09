@@ -87,6 +87,9 @@ p{
   background-position: center;  /* keeps the most important part visible when cropping */
   background-repeat: no-repeat;
   aspect-ratio: 4 / 5;
+align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
  .emphasis {
