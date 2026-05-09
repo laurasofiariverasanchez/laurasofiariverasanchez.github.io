@@ -1,26 +1,29 @@
+html {
+  font-size: 112.5%;  /* 112.5% of the browser default (usually 16px) = 18px */
+}
 body{
     background-color:#eeeabe;
     text-align: center;
 }
 header{
-    font-size: 12px;
+    font-size: 0.7rem;
     text-align: right;
 }
 h1{
     font-family: "Castoro Titling", serif;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     line-height: 1.25;
 }
 h2{
     font-family: "Castoro Titling", serif;
-    font-size: 20px;
+    font-size: 1.7rem;
     text-align: center;
     line-height: 1.25;
 }
 h3{
     font-family: "Castoro Titling", serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     text-align: center;
     line-height: 1.25;
 }
@@ -29,6 +32,7 @@ h3{
 p{
     font-family: 'Times New Roman', Times, serif;
 
+    font-size: 0.85rem;
 }
 .accent {
     color: hwb(0 18% 82%);
@@ -93,13 +97,13 @@ p{
 
  .two-cols{
     display: grid;
-    gap: 30px;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr;
  }
 
 .three-cols{
     display: grid;
-    gap: 25px;
+    gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
  }
 
