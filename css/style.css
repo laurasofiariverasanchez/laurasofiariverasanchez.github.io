@@ -90,6 +90,7 @@ p{
 align-items: center;
   justify-content: center;
   text-align: center;
+  border-radius: 10em
 }
 .hero-bg {
   background-size: cover;
