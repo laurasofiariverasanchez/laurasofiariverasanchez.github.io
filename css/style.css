@@ -48,6 +48,7 @@ p{
  }
 
  .highlighter{
+    color: hwb(0 18% 82%);
   display: inline;
   padding: 0.25em 0.5em;
   background-color: beige;
@@ -67,10 +68,9 @@ p{
   background-repeat: no-repeat;
   aspect-ratio: 4 / 5;
   width: 100%;
-  max-width: 200px;
+  /*max-width: 500px;*/
   margin: 2rem auto;
   padding: 1rem;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +97,7 @@ p{
     grid-template-columns: 1fr 1fr;
  }
 
-  .three-cols{
+.three-cols{
     display: grid;
     gap: 25px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -138,7 +138,6 @@ strong{
 summary {
     list-style: none; 
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
     /* background-color: rgba(0, 0, 0, 0.6); */
     padding: 0.75rem 1rem;
     border-radius: 6px;
