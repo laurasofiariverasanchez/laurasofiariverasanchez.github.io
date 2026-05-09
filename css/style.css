@@ -71,7 +71,7 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   aspect-ratio: 4 / 5;
-  /*width: 100%;*/
+  width: 100%;
   /*max-width: 500px;*/
   margin: 2rem auto;
   padding: 1rem;
