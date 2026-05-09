@@ -95,7 +95,7 @@ align-items: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 60vh;          /* at least 60% of the viewport height */
+  /*min-height: 60vh;          /* at least 60% of the viewport height */
   padding: 3rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -103,6 +103,19 @@ align-items: center;
   justify-content: center;
   text-align: center;
   color: black;              /* whatever reads well on your photo */
+}
+
+.image-bg h3,
+.image-bg summary,
+.image-bg p {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.image-bg h3:hover,
+.image-bg summary:hover,
+.image-bg p:hover {
+  transform: scale(1.05);    /* subtle 5% zoom */
+  color: #fff;               /* brighter on hover */
 }
 
  .emphasis {
