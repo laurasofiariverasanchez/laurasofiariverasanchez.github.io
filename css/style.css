@@ -37,7 +37,7 @@ p{
 .accent {
     color: hwb(0 18% 82%);
     margin: auto; 
-    background-color: beige;
+    background-color: #7e8c82; /*beige;*/
     text-align: center;
     background-size:cover;
     
@@ -46,7 +46,7 @@ p{
     color: hwb(0 18% 82%);
     width: fit-content;
     margin: auto; 
-    background-color: beige;
+    background-color:  #7e8c82;/*beige;*/
     text-align: center;
     background-size:cover
  }
