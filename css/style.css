@@ -198,6 +198,16 @@ summary {
     border-radius: 6px;
     cursor:e-resize;
 }
+.bio {
+  padding: 1rem 2rem;   /* 1rem top/bottom, 2rem left/right,, padding: 1rem 2rem 0.5rem 3rem — top, right, bottom, left (clockwise from top) */
+}
+.bio p {
+  line-height: 1.7;        /* vertical space between lines within a paragraph */
+  letter-spacing: 0.01em;  /* horizontal space between individual characters */
+  word-spacing: 0.05em;    /* horizontal space between words */
+  margin-bottom: 1.25rem;  /* gap between consecutive paragraphs */
+}
+
 footer{
     font-family: "Cormorant", serif;
     /*font-family: 'Times New Roman', Times, serif;*/
