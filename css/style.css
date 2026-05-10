@@ -219,8 +219,8 @@ summary {
 .button p,
 .button a,
 .button summary {
-  font-size: 0.85rem;            /* smaller than body text */
-  line-height: 1.2;              /* tight line spacing */
+  font-size: 0.65rem;            /* smaller than body text */
+  line-height: 1;              /* tight line spacing */
   letter-spacing: 0;             /* no extra tracking */
   margin: 0;                     /* no gap between paragraphs */
   color: inherit;                /* inherits the beige from .button */
