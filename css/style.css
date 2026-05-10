@@ -213,13 +213,13 @@ summary {
 
 .button {
   padding: 0.5rem 0.75rem;       /* tighter padding so text fits inside small buttons */
-  color: #73777a;                /* beige — adjust to your exact shade */
+  color: #9aa6af;                /* beige — adjust to your exact shade */
 }
 
 .button p,
 .button a,
 .button summary {
-  font-size: 0.65rem;            /* smaller than body text */
+  font-size: 0.8rem;            /* smaller than body text */
   line-height: 1;              /* tight line spacing */
   letter-spacing: 0;             /* no extra tracking */
   margin: 0;                     /* no gap between paragraphs */
