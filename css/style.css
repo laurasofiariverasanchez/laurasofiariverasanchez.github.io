@@ -93,6 +93,7 @@ p{
   */
 
 .image-bg {
+display: flex; 
   background-size: cover;
   background-position: center;  /* keeps the most important part visible when cropping */
   background-repeat: no-repeat;
