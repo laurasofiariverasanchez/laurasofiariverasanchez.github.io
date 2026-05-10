@@ -211,10 +211,14 @@ summary {
   margin-bottom: 1.25rem;  /* gap between consecutive paragraphs */
 }
 
+
 .button {
   padding: 0.5rem 0.75rem;       /* tighter padding so text fits inside small buttons */
-  color: #9aa6af;     
-  border-radius: 50%;                 
+  color: #9aa6af;                  
+}
+
+.image-bg.button {
+  aspect-ratio: 1 / 1;     /* square — now 50% radius = circle */
 }
 
 .button p,
