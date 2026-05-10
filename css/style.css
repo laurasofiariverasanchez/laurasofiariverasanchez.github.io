@@ -76,7 +76,7 @@ p{
     color: beige;
  }
  .flamingo-text{
-    color: #ed9494;
+    color: #e26b56;
  }
 
 /*.image-bg {
@@ -213,7 +213,7 @@ summary {
 
 .button {
   padding: 0.5rem 0.75rem;       /* tighter padding so text fits inside small buttons */
-  color: #d4c5a0;                /* beige — adjust to your exact shade */
+  color: #73777a;                /* beige — adjust to your exact shade */
 }
 
 .button p,
