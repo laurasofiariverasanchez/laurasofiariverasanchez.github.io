@@ -213,7 +213,8 @@ summary {
 
 .button {
   padding: 0.5rem 0.75rem;       /* tighter padding so text fits inside small buttons */
-  color: #9aa6af;                /* beige — adjust to your exact shade */
+  color: #9aa6af;     
+  border-radius: 50%;                 
 }
 
 .button p,
