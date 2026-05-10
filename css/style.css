@@ -75,6 +75,9 @@ p{
  .beige-text {
     color: beige;
  }
+ .flamingo-text{
+    color: beige;
+ }
 
 /*.image-bg {
   background-size: contain;
@@ -208,6 +211,20 @@ summary {
   margin-bottom: 1.25rem;  /* gap between consecutive paragraphs */
 }
 
+.button {
+  padding: 0.5rem 0.75rem;       /* tighter padding so text fits inside small buttons */
+  color: #d4c5a0;                /* beige — adjust to your exact shade */
+}
+
+.button p,
+.button a,
+.button summary {
+  font-size: 0.85rem;            /* smaller than body text */
+  line-height: 1.2;              /* tight line spacing */
+  letter-spacing: 0;             /* no extra tracking */
+  margin: 0;                     /* no gap between paragraphs */
+  color: inherit;                /* inherits the beige from .button */
+}
 footer{
     font-family: "Cormorant", serif;
     /*font-family: 'Times New Roman', Times, serif;*/
