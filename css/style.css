@@ -106,7 +106,7 @@ align-items: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 85vh;          /* at least 60% of the viewport height */
+  min-height: 65vh;          /* at least 60% of the viewport height */
   padding: 3rem 1.5rem;
   display: flex;
   flex-direction: column;
