@@ -220,7 +220,7 @@ summary {
 
 
 .button {
-  padding: 0.5rem 0.75rem;       /* tighter padding so text fits inside small buttons */
+  padding: 0.75rem 0.75rem;       /* tighter padding so text fits inside small buttons */
   color: #9aa6af;                  
 }
 
@@ -231,7 +231,7 @@ summary {
 .button p,
 .button a,
 .button summary {
-  font-size: 0.8rem;            /* smaller than body text */
+  font-size: 0.75rem;            /* smaller than body text */
   line-height: 1;              /* tight line spacing */
   letter-spacing: 0;             /* no extra tracking */
   margin: 0;                     /* no gap between paragraphs */
