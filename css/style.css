@@ -251,6 +251,12 @@ summary {
   margin: 0;                     /* no gap between paragraphs */
   color: inherit;                /* inherits from .button */
 }
+
+.button a:hover{
+  color: #e26b56;
+}
+
+
 footer{
     font-family: "Cormorant", serif;
     /*font-family: 'Times New Roman', Times, serif;*/
