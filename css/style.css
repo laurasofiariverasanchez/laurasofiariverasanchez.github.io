@@ -140,9 +140,9 @@ align-items: center;
 
 .image-bg h3,
 .image-bg summary,
-.image-bg p
-.image-bg a:hover {
-  transition: transform 0.2s ease, color 0.2s ease;
+.image-bg p,
+.image-bg a {
+  transition: transform 0.2s ease, color 0.4s ease;
 }
 
 .image-bg h3:hover,
@@ -150,7 +150,7 @@ align-items: center;
 .image-bg p:hover,
 .image-bg a:hover {
   transform: scale(1.05);    /* subtle 5% zoom */
-  color: #fff;               /* brighter on hover */
+  color: beige;               /* brighter on hover */
 }
 
  .emphasis {
@@ -235,6 +235,7 @@ summary {
 .button {
   padding: 0.75rem 0.75rem;       /* tighter padding so text fits inside small buttons */
   color: #a4afb7;                  
+  font-size: 1rem;  
 }
 
 .image-bg.button {
