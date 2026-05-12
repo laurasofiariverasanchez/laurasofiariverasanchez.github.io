@@ -68,11 +68,22 @@ p{
     background-size:cover
  }
 
- .highlighter{
+ .hl-light-green{
     color: hwb(0 18% 82%);
   display: inline;
   padding: 0.25em 0.5em;
-  background-color: #bdbf8d;
+  background-color: #eeeabe;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  border-radius: 0.5em
+}
+
+.hl-olive
+{
+  color: hwb(0 18% 82%);
+  display: inline;
+  padding: 0.25em 0.5em;
+  background-color: #cfb336;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   border-radius: 0.5em
@@ -129,13 +140,15 @@ align-items: center;
 
 .image-bg h3,
 .image-bg summary,
-.image-bg p {
+.image-bg p
+.image-bg a:hover {
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .image-bg h3:hover,
 .image-bg summary:hover,
-.image-bg p:hover {
+.image-bg p:hover,
+.image-bg a:hover {
   transform: scale(1.05);    /* subtle 5% zoom */
   color: #fff;               /* brighter on hover */
 }
@@ -221,7 +234,7 @@ summary {
 
 .button {
   padding: 0.75rem 0.75rem;       /* tighter padding so text fits inside small buttons */
-  color: #9aa6af;                  
+  color: #a4afb7;                  
 }
 
 .image-bg.button {
@@ -235,7 +248,7 @@ summary {
   line-height: 1;              /* tight line spacing */
   letter-spacing: 0;             /* no extra tracking */
   margin: 0;                     /* no gap between paragraphs */
-  color: inherit;                /* inherits the beige from .button */
+  color: inherit;                /* inherits from .button */
 }
 footer{
     font-family: "Cormorant", serif;
