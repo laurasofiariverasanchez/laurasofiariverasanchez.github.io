@@ -193,11 +193,11 @@ a {
     }
 
 a:visited{
-    color: #533746;
+    color: #343234;
 }
 
 a:hover {
-    color: #9b67d2;
+    color: #a59824;
     text-decoration:underline !important;
 }
 
