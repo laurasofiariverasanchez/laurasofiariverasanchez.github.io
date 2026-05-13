@@ -77,6 +77,12 @@ p{
   -webkit-box-decoration-break: clone;
   border-radius: 0.5em
 }
+.hl-light-green-block {
+  color: hwb(0 18% 82%);
+  padding: 0.75em 1em;
+  background-color: #eeeabe;
+  border-radius: 0.5em;
+}
 
 .hl-olive
 {
@@ -257,7 +263,7 @@ summary {
 }
 
 .three-cols.button-row {
-  grid-template-columns: repeat(3, 14rem);
+  grid-template-columns: repeat(3, 9rem);
   justify-content: center;
   gap: 1.5rem;
 }
