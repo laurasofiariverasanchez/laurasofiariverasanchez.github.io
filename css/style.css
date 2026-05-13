@@ -42,14 +42,21 @@ h3{
     text-align: center;
     line-height: 1.25;
 }
-
+details{
+    /*font-family: "Castoro Titling", serif;*/
+    font-family: "Cormorant", serif;
+    font-weight: lighter;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.25;
+}
 
 p{
     /*font-family: 'Times New Roman', Times, serif;*/
     font-family: "Cormorant", serif;
     font-weight: lighter;
 
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 .accent {
     color: hwb(0 18% 82%);
@@ -141,7 +148,6 @@ align-items: center;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: black;
 }
 
 .image-bg h3,
@@ -204,7 +210,6 @@ a:visited{
 
 a:hover {
     color: #a59824;
-    text-decoration:underline !important;
 }
 
 a:active{
@@ -241,7 +246,6 @@ summary {
 .button {
   padding: 0.75rem 0.75rem;       /* tighter padding so text fits inside small buttons */
   color: #a4afb7;                  
-  font-size: 1rem;  
 }
 
 .image-bg.button {
