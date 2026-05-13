@@ -110,21 +110,6 @@ p{
     color: #e26b56;
  }
 
-/*.image-bg {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  aspect-ratio: 4 / 5;
-  width: 100%;
-  max-width: 500px;
-  margin: 2rem auto;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-  */
 
 .image-bg {
 display: flex; 
@@ -182,7 +167,7 @@ align-items: center;
  .two-cols{
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     align-items: center;
  }
 
